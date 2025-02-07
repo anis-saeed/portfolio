@@ -55,3 +55,24 @@ window.addEventListener("scroll", function () {
     header.classList.remove("active");
   }
 });
+
+// JavaScript to handle form submission and display success message
+document.getElementById('contactForm').addEventListener('submit', function (event) {
+  event.preventDefault(); 
+
+  setTimeout(function () {
+
+    document.querySelector('[name="name"]').value = '';
+    document.querySelector('[name="email_address"]').value = '';
+    document.querySelector('[name="message"]').value = '';
+
+
+    const successMessage = document.getElementById('successMessage');
+    successMessage.style.display = 'block';
+
+
+    setTimeout(function () {
+      successMessage.style.display = 'none';
+    }, 5000);
+  }, 500); 
+});
