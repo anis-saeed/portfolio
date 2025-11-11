@@ -204,6 +204,7 @@ body::-webkit-scrollbar-thumb {
   font-weight: var(--fw-500);
   margin-block-end: 6px;
   font-size: 20px !important;
+  text-transform: uppercase;
 }
 
 .h1,
