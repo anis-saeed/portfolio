@@ -203,7 +203,7 @@ body::-webkit-scrollbar-thumb {
   font-family: var(--ff-poppins);
   font-weight: var(--fw-500);
   margin-block-end: 6px;
-  font-size: 50px !important;
+  font-size: 30px !important;
 }
 
 .h1,
